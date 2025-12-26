@@ -1,0 +1,15 @@
+# TWRP device tree for nubia NX789J (NX789J)
+
+```
+#
+# Copyright (C) 2025 The Android Open Source Project
+#
+# Copyright (C) 2025 xXHenneBXx
+#
+# Copyright (C) 2025 SebaUbuntu
+#
+# Copyright (C) 2025 Biraru
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
