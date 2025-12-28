@@ -11,9 +11,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_NX789J.mk
+    $(LOCAL_DIR)/pb_NX789J.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_NX789J-user \
-    twrp_NX789J-userdebug \
-    twrp_NX789J-eng
+    pb_NX789J-user \
+    pb_NX789J-userdebug \
+    pb_NX789J-eng
