@@ -21,7 +21,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/nubia/NX789J/device.mk)
 
 PRODUCT_DEVICE := NX789J
-PRODUCT_NAME := twrp_NX789J
+PRODUCT_NAME := pb_NX789J
 PRODUCT_BRAND := nubia
 PRODUCT_MODEL := NX789J
 PRODUCT_MANUFACTURER := nubia
