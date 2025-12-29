@@ -23,7 +23,7 @@ $(call inherit-product, device/nubia/NX789J/device.mk)
 PRODUCT_DEVICE := NX789J
 PRODUCT_NAME := twrp_NX789J
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := NX789J
+PRODUCT_MODEL := RedMagic 10 Pro
 PRODUCT_MANUFACTURER := nubia
 
 PRODUCT_GMS_CLIENTID_BASE := android-zte
