@@ -1,12 +1,6 @@
 #
 # Copyright (C) 2025 The Android Open Source Project
 #
-# Copyright (C) 2025 xXHenneBXx
-#
-# Copyright (C) 2025 SebaUbuntu
-#
-# Copyright (C) 2025 Biraru
-#
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -97,7 +91,7 @@ PRODUCT_PACKAGES += \
     vendor_modprobe.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.enableswap_wb_4_2 \
+    recovery.fstab \
     init.fingerprint.gf95xx.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
@@ -112,7 +106,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.enableswap_wb_4_2:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.enableswap_wb_4_2
+    $(LOCAL_PATH)/rootdir/etc/recovery.fstab:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/recovery.fstab
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
