@@ -1,12 +1,6 @@
 #
 # Copyright (C) 2025 The Android Open Source Project
 #
-# Copyright (C) 2025 xXHenneBXx
-#
-# Copyright (C) 2025 SebaUbuntu
-#
-# Copyright (C) 2025 Biraru
-#
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -14,8 +8,8 @@ DEVICE_PATH := device/nubia/NX789J
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS +=
-BOARD_USES_RECOVERY_AS_BOOT := true
+AB_OTA_PARTITIONS := boot system vendor
+
 
 # Architecture
 TARGET_ARCH := arm64
@@ -87,8 +81,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TW_THEME := portrait_hdpi
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS := boot system vendor
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2025-02-01
