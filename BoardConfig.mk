@@ -8,7 +8,7 @@ DEVICE_PATH := device/nubia/NX789J
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS := boot system vendor
+AB_OTA_PARTITIONS := boot init_boot vendor_boot system system_ext product vendor vendor_dlkm odm odm_dlkm
 
 
 # Architecture
