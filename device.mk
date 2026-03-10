@@ -106,7 +106,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/recovery.fstab:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/recovery.fstab
+    $(LOCAL_PATH)/rootdir/etc/recovery.fstab:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.sun
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
